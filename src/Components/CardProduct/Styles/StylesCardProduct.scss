@@ -1,0 +1,148 @@
+.cardProduct {
+    width: 13rem;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+.imgCardProduct {
+    max-height: 206px;
+    min-height: 206px;
+}
+
+.textCardProduct {
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: baseline;
+}
+
+.storeTitleCard {
+    color: #25c16a;
+    font-size: 13px;
+}
+
+.cardBodyProduct {
+    padding: 10px 10px 10px 10px;
+}
+
+.pillProductCard {
+    margin: 0 0 0 auto;
+    background-color: #269e7e;
+    width: 62px;
+    text-align: center;
+    color: #fff;
+    border-radius: 21px;
+    font-size: .9em;
+}
+
+.titleCardProduct {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Gilroy-Bold';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: initial;
+    margin-bottom: .5rem;
+}
+
+.storePriceCard {
+    color: #25c16a;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.priceNumberProduct {
+    color: #000;
+}
+
+.numberUnitsProduct {
+    font-size: 11px;
+    color: gray;
+    font-family: 'Gilroy-Bold';
+}
+
+.btnAddProductCart {
+    width: 100%;
+    background: #25c16a;
+    border-color: #25c16a;
+    font-weight: 700;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.btnAddProductCart.btn-success {
+    background: #25c16a;
+    border-color: #25c16a;
+}
+
+.ctnSellosProduct {
+    width: 35px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.imgSellosProduct {
+    margin-bottom: 5px;
+}
+
+.tooltipProduct {
+    top: -15px !important;
+}
+
+.tooltipProduct span {
+    color: #D2B836;
+    display: flex;
+}
+
+.tooltipProduct .arrow::before {
+    border-right-color: #177890;
+    top: 10px;
+}
+
+.tooltipProduct .tooltip-inner {
+    text-align: left;
+    background-color: #177890;
+}
+
+.tooltipProduct span.titleSello {
+    color: #fff;
+    margin-top: -25px
+}
+
+// Css responsive
+
+@media (max-width: 770px) {
+    .cardProduct {
+        width: 12rem;
+        margin: 5px 5px 5px 5px;
+    }
+
+    .btnAddProductCart {
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 414px) {
+    .cardProduct {
+        width: 10rem;
+        display: inline-block;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .cardProduct {
+        width: 9rem;
+        display: inline-block;
+        margin: 5px 5px 5px 5px;
+    }
+    .btnAddProductCart {
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,131 @@
+.navHeader {
+    background-color: #25c16a !important;
+    padding: 20px 40px 20px 40px;
+}
+
+.navSearch {
+    width: 60%;
+    padding: 0px 20px 0px 150px;
+}
+
+.navSearch .mr-sm-2 {
+    width: 100%;
+    border-radius: 40px;
+    padding: 0px 0px 3px 15px;
+}
+
+.iconSearch {
+    margin-left: -40px;
+    width: 17px;
+}
+
+.ctnCartUser {
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.btnCart {
+    border-color: #25c16a !important;
+    color: transparent;
+    margin-right: 40px;
+}
+
+.btnCart:active {
+    border-color: #25c16a !important;
+    color: transparent;
+}
+
+.btnCart .iconCart {
+    width: 25px;
+}
+
+.navBarColUser {
+    max-width: 170px;
+    margin-right: 20px;
+    padding: 5px 0px 0px 0px;
+}
+
+.navItemUser.navbar-nav {
+    display: block;
+}
+
+.txtUser {
+    font-family: 'Gilroy-Light';
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    padding: 0px 10px 0px 0px;
+}
+
+.navDropUserTxt {
+    margin-top: -10px;
+    text-align: end;
+}
+
+.navDropUserTxt a{
+    font-size: 12px;
+    font-family: 'Gilroy-Light';
+}
+
+.navDropUserTxt a::after {
+    margin-left: 0.55em;
+}
+
+.imgProfileUser {
+    width: 36px;
+    margin-top: -7px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent;
+    color: #212529;
+}
+
+.numberPorductsHe {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    width: 16px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+// Css responsive
+
+@media (max-width: 770px) {
+    .btnCart {
+        margin-right: 0px;
+        margin: 0 0 0 auto;
+        margin-top: -7px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color:  #fff;
+        border-color: transparent;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(https://assets.superfuds.com/assets/ecom/v3/hamburger_menu.icon.svg);
+    }
+
+    .navSearch {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .navBarColUser {
+        max-width: 350px;
+        margin-right: 0px;
+        padding: 5px 0px 0px 0px;
+        text-align: end;
+    }
+
+    .txtProfileResp {
+        color: #fff !important;
+        font-family: 'Gilroy-Light';
+    }
+  }
